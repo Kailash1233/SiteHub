@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import Products from "./Components/Products";
 import Cart from "./Components/Cart";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -22,7 +21,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/features" element={<Features />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/products" element={<Products />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/blog" element={<Blog />} />

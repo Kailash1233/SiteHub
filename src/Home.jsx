@@ -16,13 +16,15 @@ const Home = () => {
           Sell Your Website with Ease
         </h1>
         <p className="text-lg mb-4 text-black font-Noto font-medium">
-          Adszoo E-Com helps you sell your website effortlessly. Whether it's a
-          template or a fully developed site, we connect you with buyers.
+          Adszoo SiteHub helps you sell your website effortlessly. Whether it's
+          a template or a fully developed site, we connect you with buyers.
         </p>
         <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full">
           Get Started
         </button>
-        <p className="mt-4 text-black font-Mont font-bold">100+ website sellers here</p>
+        <p className="mt-4 text-black font-Mont font-bold">
+          100+ website sellers here
+        </p>
       </div>
     </div>
   );

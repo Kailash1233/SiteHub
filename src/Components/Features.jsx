@@ -3,7 +3,7 @@ import React from "react";
 const Features = () => {
   return (
     <section className="py-20 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold mb-10">Why Choose Adszoo E-Com?</h2>
+      <h2 className="text-3xl font-bold mb-10">Why Choose Adszoo SiteHub?</h2>
       <div className="max-w-4xl mx-auto grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <h3 className="text-xl font-semibold mb-2">Effortless Selling</h3>
@@ -16,7 +16,7 @@ const Features = () => {
         <div>
           <h3 className="text-xl font-semibold mb-2">Wide Reach</h3>
           <p>
-            With over 100+ website sellers and countless buyers, Adszoo E-Com is
+            With over 100+ website sellers and countless buyers, Adszoo SiteHub is
             a bustling marketplace for website transactions.
           </p>
         </div>

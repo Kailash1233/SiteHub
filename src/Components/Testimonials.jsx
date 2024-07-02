@@ -5,7 +5,7 @@ const Testimonials = () => {
     {
       name: "John Doe",
       quote:
-        "Adszoo E-Com made selling my website so easy and hassle-free. Highly recommend!",
+        "Adszoo SiteHub made selling my website so easy and hassle-free. Highly recommend!",
       image: "/images/john.jpg",
     },
     {

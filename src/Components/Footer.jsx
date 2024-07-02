@@ -71,7 +71,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="mt-6">&copy; 2024 Adszoo E-Com. All rights reserved.</p>
+      <p className="mt-6">&copy; 2024 Adszoo SiteHub. All rights reserved.</p>
     </footer>
   );
 };

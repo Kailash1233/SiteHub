@@ -10,10 +10,10 @@ const FAQ = () => {
     {
       question: "Is there a fee for listing my website?",
       answer:
-        "Listing your website on Adszoo E-Com is free. We only charge a commission once your website is sold.",
+        "Listing your website on Adszoo SiteHub is free. We only charge a commission once your website is sold.",
     },
     {
-      question: "How secure are transactions on Adszoo E-Com?",
+      question: "How secure are transactions on Adszoo SiteHub?",
       answer:
         "We prioritize security by using trusted payment gateways and ensuring that all transactions are safe and transparent.",
     },

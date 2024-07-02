@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="text-xl font-bold py-2 flex justify-center items-center">
           <img src="/images/icon.png" alt="Logo" className="h-10 mr-2" />
-          <Link to="/">Adszoo E-Com</Link>
+          <Link to="/">Adszoo SiteHub</Link>
         </div>
         <div className="hidden md:flex items-center gap-8">
           <Link to="/" className="hover:text-gray-400">

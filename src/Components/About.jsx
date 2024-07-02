@@ -13,16 +13,16 @@ const About = () => {
     >
       <div className="flex-grow font-Noto">
         <div className="container mx-auto px-4 py-8">
-          <h1 className="text-3xl font-bold mb-4">About Adszoo E-Com</h1>
+          <h1 className="text-3xl font-bold mb-4">About Adszoo SiteHub</h1>
           <p className="text-lg mb-4">
-            Welcome to Adszoo E-Com, your go-to platform for selling websites
+            Welcome to Adszoo SiteHub, your go-to platform for selling websites
             with ease and efficiency. Whether you're a developer looking to sell
             your latest website template or a business owner ready to pass on
-            your fully developed site, Adszoo E-Com connects you with eager
+            your fully developed site, Adszoo SiteHub connects you with eager
             buyers in the market.
           </p>
           <p className="text-lg mb-4">
-            At Adszoo E-Com, our mission is to simplify the website selling
+            At Adszoo SiteHub, our mission is to simplify the website selling
             process. We understand that selling a website can be a daunting
             task, from finding the right buyer to negotiating the best price.
             That's why we've created a streamlined platform that handles all the
@@ -38,7 +38,7 @@ const About = () => {
             </li>
             <li>
               Wide Reach: With over 100+ website sellers and countless buyers,
-              Adszoo E-Com is a bustling marketplace for website transactions.
+              Adszoo SiteHub is a bustling marketplace for website transactions.
             </li>
             <li>
               Secure Transactions: Your security is our priority. We ensure that
@@ -69,7 +69,7 @@ const About = () => {
           <div className="flex justify-between items-center border-t border-gray-300 pt-4">
             <div>
               <p className="text-lg font-semibold">
-                Join the Adszoo E-Com community today and experience a new level
+                Join the Adszoo SiteHub community today and experience a new level
                 of convenience in selling websites. Whether you're a seasoned
                 developer or a first-time seller, our platform is designed to
                 cater to all your needs.
