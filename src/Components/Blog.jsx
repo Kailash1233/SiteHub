@@ -1,4 +1,5 @@
 import React from "react";
+import backgroundImage from "/images/1.jpg";
 
 const Blog = () => {
   const blogPosts = [
@@ -23,9 +24,19 @@ const Blog = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold mb-10">Blog</h2>
-      <div className="max-w-4xl mx-auto grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <section className="bg-gray-100 text-center">
+      <div
+        className="flex items-start justify-center"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h2 className="text-3xl font-bold text-white p-20">Blog</h2>
+      </div>
+
+      <div className="py-20 max-w-4xl mx-auto grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {blogPosts.map((post, index) => (
           <div key={index} className="p-6 bg-white rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">{post.title}</h3>

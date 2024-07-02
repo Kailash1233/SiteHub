@@ -1,10 +1,20 @@
 import React from "react";
+import backgroundImage from "/images/1.jpg";
 
 const Services = () => {
   return (
-    <section className="py-20 bg-white text-center">
-      <h2 className="text-3xl font-bold mb-10">Our Services</h2>
-      <div className="max-w-4xl mx-auto grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <section className="bg-white text-center">
+      <div
+        className="flex items-start justify-center"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="text-3xl font-bold mb-4 p-20 text-white">Our Services</h1>
+      </div>
+      <div className="py-20 max-w-4xl mx-auto grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="p-6 bg-gray-100 rounded-lg">
           <h3 className="text-xl font-semibold mb-4">Website Listings</h3>
           <p>
