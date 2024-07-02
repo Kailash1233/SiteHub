@@ -13,7 +13,7 @@ export const Navbar = () => {
     <nav className="text-black py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="text-xl font-bold py-2 flex justify-center items-center">
-          <img src="/images/icon.png" alt="Logo" className="h-10 mr-2" />
+          {/* <img src="/images/icon.png" alt="Logo" className="h-10 mr-2" /> */}
           <Link to="/">Adszoo SiteHub</Link>
         </div>
         <div className="hidden md:flex items-center gap-8">
@@ -30,7 +30,7 @@ export const Navbar = () => {
             Services
           </Link>
           <Link to="/testimonials" className="hover:text-gray-400">
-            Testimonial
+            Testimonials
           </Link>
           <Link to="/faq" className="hover:text-gray-400">
             FAQs
@@ -46,7 +46,7 @@ export const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center bg-gray-700 py-4">
+        <div className="md:hidden flex flex-col items-center bg-gray-300">
           <Link
             to="/"
             className="py-2 hover:text-gray-400"
@@ -73,7 +73,7 @@ export const Navbar = () => {
             className="py-2 hover:text-gray-400"
             onClick={toggleMenu}
           >
-            Testimonail
+            Testimonials
           </Link>
           <Link
             to="/services"

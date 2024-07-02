@@ -1,16 +1,8 @@
 import React from "react";
-import backgroundImage from "/images/beams.jpg";
 
 const About = () => {
   return (
-    <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="min-h-screen flex flex-col">
       <div className="flex-grow font-Noto">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-4">About Adszoo SiteHub</h1>
@@ -69,10 +61,10 @@ const About = () => {
           <div className="flex justify-between items-center border-t border-gray-300 pt-4">
             <div>
               <p className="text-lg font-semibold">
-                Join the Adszoo SiteHub community today and experience a new level
-                of convenience in selling websites. Whether you're a seasoned
-                developer or a first-time seller, our platform is designed to
-                cater to all your needs.
+                Join the Adszoo SiteHub community today and experience a new
+                level of convenience in selling websites. Whether you're a
+                seasoned developer or a first-time seller, our platform is
+                designed to cater to all your needs.
               </p>
             </div>
           </div>

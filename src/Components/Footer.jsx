@@ -1,9 +1,18 @@
 import React from "react";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="py-10 bg-gray-800 text-white text-center">
       <div className="max-w-4xl mx-auto grid gap-6 sm:grid-cols-1 md:grid-cols-3">
+        <div>
+          <h4 className="font-bold text-2xl mb-4">Adszoo SiteHub</h4>
+          <p className="mb-4">
+            Adszoo SiteHub helps you sell your website effortlessly. Whether
+            it's a template or a fully developed site, we connect you with
+            buyers to ensure a smooth and profitable transaction.
+          </p>
+        </div>
         <div>
           <h4 className="font-bold mb-2">Quick Links</h4>
           <ul>
@@ -42,30 +51,28 @@ const Footer = () => {
         <div>
           <h4 className="font-bold mb-2">Contact Information</h4>
           <p>Email: info@adszooecom.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
-          <p>Address: 1234 Street Name, City, State, ZIP</p>
-        </div>
-        <div>
-          <h4 className="font-bold mb-2">Follow Us</h4>
+          <p>Phone: +91 72005 80860</p>
+          <p>Address: Chennai, TamilNadu</p>
+          <h4 className="font-bold mt-4 mb-2">Follow Us</h4>
           <ul className="flex justify-center space-x-4">
             <li>
               <a href="#" className="hover:underline">
-                Facebook
+                <FaFacebook size="1.5em" />
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline">
-                Twitter
+                <FaTwitter size="1.5em" />
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline">
-                LinkedIn
+                <FaLinkedin size="1.5em" />
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline">
-                Instagram
+                <FaInstagram size="1.5em" />
               </a>
             </li>
           </ul>
