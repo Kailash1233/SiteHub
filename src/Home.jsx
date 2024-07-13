@@ -64,7 +64,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="h-full">
+    <div className="">
       <div
         className="flex items-start justify-center h-auto"
         style={{
@@ -92,74 +92,25 @@ const Home = () => {
           </p>
         </div>
       </div>
-      {/* About  */}
-      {/* <div>
-        <h1 className="text-3xl font-bold mb-4 p-4 text-black text-center">
-          About Adszoo SiteHub
-        </h1>
-        <div className="flex-grow font-Noto">
-          <div className="container mx-auto">
-            <p className="text-lg mb-4">
-              Welcome to Adszoo SiteHub, your go-to platform for selling
-              websites with ease and efficiency. Whether you're a developer
-              looking to sell your latest website template or a business owner
-              ready to pass on your fully developed site, Adszoo SiteHub
-              connects you with eager buyers in the market.
-            </p>
-            <p className="text-lg mb-4">
-              <h1 className="text-xl font-bold mb-4">Why Choose Us?</h1>
-              <li className="mb-2">
-                Effortless Selling: List your website with ease and let our
-                platform do the rest. We connect you with a large pool of
-                potential buyers, making it simple to find the right match.
-              </li>
-              <li className="mb-2">
-                Wide Reach: With over 100+ website sellers and countless buyers,
-                Adszoo SiteHub is a bustling marketplace for website
-                transactions.
-              </li>
-              <li className="mb-2">
-                Secure Transactions: Your security is our priority. We ensure
-                that all transactions are safe, secure, and transparent, giving
-                you peace of mind throughout the process.
-              </li>
-            </p>
-            <p className="text-lg mb-4">
-              <h1 className="text-xl font-bold mb-4">Our Services</h1>
-              <li className="mb-2">
-                Website Listings: Post your website for sale with detailed
-                descriptions and attract the right buyers.
-              </li>
-              <li className="mb-2">
-                Buyer Connection: Our platform connects you with buyers who are
-                specifically looking for websites like yours.
-              </li>
-              <li className="mb-2">
-                Transaction Assistance: We assist in the negotiation and
-                transaction process to ensure a smooth and successful sale.
-              </li>
-            </p>
-          </div>
-        </div>
-      </div> */}
+
       {/* Backend Data  */}
       <div>
         <h1 className="text-3xl font-bold mb-4 text-center py-4">
           Featured Templates
         </h1>
         {error && <p className="text-red-500 text-center">Error: {error}</p>}
-        <div className="max-w-4xl mx-auto grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+        <div className="max-w-6xl mx-auto grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {templates.length > 0 ? (
             templates.map((template, index) => (
-              <div key={index} className="p-6 bg-gray-100 rounded-lg">
+              <div key={index} className="p-6 bg-gray-100 rounded-lg shadow-md">
                 <img
-                  src={template.Image}
-                  alt={template.Name}
+                  src={template.image}
+                  alt={template.name}
                   className="w-full h-48 object-cover mb-4 rounded"
                 />
-                <h2 className="text-xl font-semibold mb-2">{template.Name}</h2>
-                <p className="text-lg mb-4">{template.Description}</p>
-                <p className="text-lg font-bold mb-4">{template.Price}</p>
+                <h2 className="text-xl font-semibold mb-2">{template.name}</h2>
+                <p className="text-lg mb-4">{template.description}</p>
+                <p className="text-lg font-bold mb-4">{template.price}</p>
                 <a
                   href={template["Live Demo"]}
                   className="text-blue-500 hover:underline"
@@ -195,6 +146,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+
       {/* FAQs  */}
       <div className="p-4">
         <h2 className="text-3xl font-bold mb-10 text-center">

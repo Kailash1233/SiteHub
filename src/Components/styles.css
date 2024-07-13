@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray-150: #3d4467;
+}
+
+.gray-50 {
+  color: #c3c5ce;
+}
+
+.gray-90 {
+  color: #5e6379;
+}
+
+.gray-100 {
+  color: #545b79;
+}
+
+.bg-black-100 {
+  background-color: #1b1f33;
+}
+
+.title {
+  width: fit-content;
+  max-width: 710px;
+  margin: 0 0 30px;
+  font-size: 48px;
+  color: white;
+}
+
+.w-min-content {
+  width: min-content;
+}
+
+/* Start swiper style */
+
+.swiper {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 35px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  margin-right: 15px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: rgb(18 20 32 / 50%);
+  border-radius: 50%;
+}
+
+.swiper-button-next:after {
+  margin-right: 15px;
+}
+
+/* End swiper style */
+
+/* Start developers */
+
+.developers {
+  margin-top: 8rem;
+  overflow-x: clip;
+}
+
+.developers .mySwiper .swiper-slide div img {
+  height: 100%;
+}
+
+.developers .swiper .swiper-slide div {
+  border: 1px solid var(--gray-150);
+  -o-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+}
+
+.developers .mySwiper .swiper-slide div h6 {
+  width: max-content;
+}
+
+/* End developers */
+
+/* Start join */
+
+.join .container {
+  margin-top: 7rem;
+}
+
+.join .mySwiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.join .mySwiper .swiper-wrapper .swiper-slide {
+  height: auto;
+}
+
+.join .mySwiper .swiper-wrapper .swiper-slide {
+  border: 1px solid #3d4467;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.join .mySwiper div img {
+  max-width: 204px;
+  max-height: 68px;
+}
+
+/* End join */
+

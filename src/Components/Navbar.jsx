@@ -13,8 +13,7 @@ export const Navbar = () => {
     <nav className="text-black py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="text-xl font-bold py-2 flex justify-center items-center">
-          {/* <img src="/images/icon.png" alt="Logo" className="h-10 mr-2" /> */}
-          <Link to="/">Adszoo SiteHub</Link>
+          <Link to="/">SiteHub</Link>
         </div>
         <div className="hidden md:flex items-center gap-8">
           <Link to="/" className="hover:text-gray-400">
@@ -29,8 +28,11 @@ export const Navbar = () => {
           <Link to="/services" className="hover:text-gray-400">
             Services
           </Link>
-          <Link to="/blog" className="hover:text-gray-400">
+          {/* <Link to="/blog" className="hover:text-gray-400">
             Blogs
+          </Link> */}
+          <Link to="/register" className="hover:text-gray-400">
+            Register
           </Link>
         </div>
         <div className="md:hidden flex items-center">
@@ -62,13 +64,13 @@ export const Navbar = () => {
           >
             Services
           </Link>
-          <Link
+          {/* <Link
             to="/blog"
             className="py-2 hover:text-gray-400"
             onClick={toggleMenu}
           >
             Blogs
-          </Link>
+          </Link> */}
           {/* <Link
             to="/cart"
             className="py-2 hover:text-gray-400"
